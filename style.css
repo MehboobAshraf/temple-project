@@ -12,6 +12,12 @@
   font-family : 'Bitter-Regular';
   src: url("assets/fonts/Bitter-Regular.ttf");
 }
+p , h2, h4, h1{
+font-family: bitter-regular;
+}
+h3 {
+  font-family: bitter-bold;
+}
 .header {
   border-bottom: 1px solid #e5e5e5;
   -webkit-box-shadow: 0 2px 10px 1px #848484;
@@ -30,6 +36,7 @@
 }
 .header .top-bar .topbar-right marquee {
   padding: 12px 0 0 0;
+  font-family: bitter-regular;
   margin: 0 -15px 0 -4px;
 }
 .header .navbar-brand {
@@ -74,17 +81,18 @@
 .header .bottom-header .nav {
     float: right;
     padding-left: 30px;
+    margin-top: -30px;
+    float: right !important;
 }
 .header .bottom-header .nav ul {
   margin: 0;
   padding: 0;
   float: left;
-  list-style: none;
+  list-style: none;  
   padding-left: 30px;
 }
 .header .bottom-header .nav ul li{
-      /* display: inline-block; */
-      float: left;
+    padding: 3px 20px;
 }
 .home-banner {
   background: url(assets/images/home-page/home-banner.png) no-repeat;
@@ -110,10 +118,10 @@
   text-align: center;
 }
 .home-banner .banner-text h1 span {
-  font-weight: 700;
+  font-family: bitter-bold;
 }
 .home .darsan {
-  padding: 90px 0 30px 30px;
+  padding: 105px 0 30px 30px;
   background: #d35400;
   color: white;
   font-size: 20px;
@@ -148,8 +156,8 @@
 .home .darsan_content h2 {
   padding: 5px 0 10px 0;
   color: #ce5200;
-  font-weight: 700;
-  width: 212px;
+  font-weight: 700;  
+  width: 222px;
   border-bottom: 3px solid #e2e2e2;
   font-size: 36px;
 }
@@ -166,4 +174,134 @@
   padding: 2px 23px;
   border-radius: 17px;
   box-shadow: 3px 4px 9px 1px #00000045;
+}
+.home .significance {
+  padding: 65px 0;
+}
+.home .significance h3 {
+  padding: 5px 0 10px 0;
+  color: #ce5200;
+  font-weight: 700;
+  width: 220px;
+  border-bottom: 3px solid #e2e2e2;
+  font-size: 36px;
+  margin: 0 auto;    
+  text-transform: uppercase;
+  width: 262px;
+}
+.home .photo_gallery h3 {
+  padding: 5px 0 10px 0;
+  color: #ce5200;
+  font-weight: 700;
+  border-bottom: 3px solid #e2e2e2;
+  font-size: 36px;
+  margin: 0 auto;    
+  text-transform: uppercase;
+}
+.home .photo_gallery {
+  margin-bottom: 20px;
+}
+.home .image_section {
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+}
+.home .image_section .image img {
+  width: 100%;
+  box-shadow: 3px 5px 15px 1px #00000033;
+  border-radius: 20px;
+  height: 200px;
+  object-fit: cover;
+  margin: 14px 0;
+}
+.home .image_section .image .middle {
+    top: 13px;
+    width: 90%;
+    height: 88%;
+    display: flex;
+    position: absolute;
+    opacity: 0;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #d35400;
+    transition: 0.3s all ease;
+}
+.home .image_section .image .middle :hover {
+  opacity: 0.8;
+  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+} 
+.home .photo_gallery .btn {
+  background: #d35400;
+  color: white;
+  font-size: 16px;
+  font-family: bitter-regular;
+  padding: 5px 30px;
+  border-radius: 20px;
+  border: none;
+  margin: 0 auto;
+  box-shadow: 1px 3px 10px 3px #00000045;
+}
+.home .support {
+  background: url("assets/images/home-page/support.png") no-repeat;
+  margin: 80px 0 10px 0;
+  color: white;
+}
+.home .support .shev {
+  margin-top: -40px;
+}
+.home .support .support-content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home .support .support-content p {
+  margin: -50px 0 0 0;
+}
+.home .support .support-content h3 {
+  font-size: 40px;
+  border: none;
+}
+.home .support .btn-md {
+  background: white;
+  padding: 4px 30px;
+  border: none;
+  color: #d35400;
+  font-size: 22px;
+  font-family: bitter-bold;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+.home .videos h3 {
+  padding: 5px 0 10px 0;
+  color: #ce5200;
+  font-weight: 700;
+  border-bottom: 3px solid #e2e2e2;
+  font-size: 36px;
+  width: 140px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.home .videos .video img {
+  width: 100%;
+}
+.home .videos .video {
+  margin-top: 40px;
+}
+.home .videos .video p {
+  text-align: center;
+  margin-top: 5px;
+}
+.home .videos .btn {
+  background: #d35400;
+  color: white;
+  font-size: 16px;
+  font-family: bitter-regular;
+  padding: 5px 30px;
+  border-radius: 20px;
+  border: none;
+  margin: 15px auto 0 auto;
+  box-shadow: 1px 3px 10px 3px #00000045;
 }

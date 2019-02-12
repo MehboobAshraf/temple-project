@@ -429,7 +429,7 @@ h3 {
 
 /* about managment */
 .about-management {
-  margin: 40px 0;
+  margin-top: 50px;
 }
 .about-management h1 {
   text-align: center;
@@ -442,6 +442,10 @@ h3 {
   text-align: center;
   margin: 50px 0 0 0;
   color: #00113d;
+}
+.about-management h3:last-of-type {
+  color: #d35400;
+  margin-top: 60px;
 }
 .about-management .cards {
   margin-top: 40px;
@@ -477,4 +481,28 @@ h3 {
 .about-management .card-body p {
   margin-bottom: 0;
 }
+.about-management .team {
+  margin: 60px 0 30px 0;
+}
+.about-management .team .card{
+  border: none;
+  margin-bottom: 30px;
+  background: transparent;
+}
+.about-management .team .card img {
+  width: 60%;
+  margin: 0 auto;
+}
+.about-management .team .card h4{
+  text-align: center;
+  font-size: 18px;
+  font-family: bitter-bold;
+  color: #d35400;
+  margin-top: 20px;
+}
+.about-management .team .card p{
+  text-align: center;
+  font-weight: 600;
+}
+
 /* !about management */

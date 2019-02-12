@@ -504,5 +504,29 @@ h3 {
   text-align: center;
   font-weight: 600;
 }
-
 /* !about management */
+
+/* about Trust */
+.trust {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+.trust h3 {
+  text-align: center;
+  font-family: bitter-bold;
+  color: #d35400;
+  margin-bottom: 50px;
+}
+.trust h5{
+  font-size: 18px;
+  color: #00113d;
+  font-family: bitter-bold;
+  margin: 35px 0;
+}
+.trust p {
+  margin-bottom: 3px;
+}
+.trust h5:nth-of-type(even) {  
+  color: #d35400;
+}
+/* ! about trust */

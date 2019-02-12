@@ -529,4 +529,47 @@ h3 {
 .trust h5:nth-of-type(even) {  
   color: #d35400;
 }
+.contact {
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.contact h1 {
+  text-align: center;
+  font-family: bitter-bold;
+  color: #d35400;
+  margin-bottom: 50px;
+}
+.contact .contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+.contact .contact-form input {
+  width: 100%;
+  font-family: bitter-regular;
+  padding: 9px 15px;
+  border-radius: 50px;
+  border: 1px solid #949494;
+  margin-bottom: 15px;
+  outline: none;
+  font-size: 14px;
+}
+.contact-form textarea {
+  width: 100%;
+  font-family: bitter-regular;
+  padding: 9px 15px;
+  border-radius: 15px;
+  border: 1px solid #949494;
+  margin-bottom: 15px;
+  outline: none;
+  font-size: 14px;
+}
+.contact-form .btn {
+  border-radius: 30px;
+  padding: 6px 45px;
+  font-size: 20px;
+  color: white;
+  font-family: bitter-bold;
+  background: #d35400;
+  margin: 20px auto 0 auto;
+}
 /* ! about trust */

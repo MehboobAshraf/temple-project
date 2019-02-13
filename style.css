@@ -573,3 +573,111 @@ h3 {
   margin: 20px auto 0 auto;
 }
 /* ! about trust */
+
+/* Future Vision */
+.future-vision {
+  margin: 60px 0;
+}
+.future-vision h1{
+  text-align: center;
+  font-family: bitter-bold;
+  color: #d35400;
+  margin-bottom: 30px;
+}
+.future-vision h5 {
+  font-size: 18px;
+  color: #00113d;
+  font-family: bitter-bold;
+  margin: 35px 0;
+}
+.future-vision .porject {
+  margin-bottom: 50px;
+}
+.future-vision .vision {
+  margin: 60px 0 50px 0;
+}
+.future-vision .left {
+  background: url('assets/images/future-vision/vision1.png') no-repeat;
+  border-radius: 20px;
+}
+.future-vision .left p {
+  padding: 75px 26px;
+  color: white;
+}
+.future-vision .right {
+  background: url('assets/images/future-vision/vision2.png') no-repeat;
+  border-radius: 20px;
+}
+.future-vision .right p {
+  color: white;
+  padding: 51px 25px;
+}
+.future-vision h3 {
+  text-align: center;
+  font-family: bitter-bold;
+  color: #00113d;
+  margin-bottom: 50px;
+}
+.future-vision .yellow {
+  color: #d35400;
+}
+.future-vision .video .link {
+  width: 70%;
+  height: 370px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.future-vision .temple {
+  margin: 60px 0;
+}
+.future-vision .temple img {
+  width: 100%;
+}
+.future-vision .img {
+  width: 72%;
+  margin: 0 auto 40px auto;
+}
+.future-vision .img img {
+  width: 100%;
+}
+.future-vision .temple p {
+  margin-bottom: 30px;
+}
+.future-vision .location {
+  margin: 50px 0;
+}
+.future-vision .location .geo img {
+  width: 100%;
+}
+.future-vision .location h5 {
+  margin: 20px 40px;
+  text-align: center;
+}
+.future-vision .download {
+  background: url('assets/images/future-vision/download.png') no-repeat;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+.future-vision .download h2 {
+  padding: 50px 10px;
+  font-size: 29px;
+  color: honeydew;
+  font-family: bitter-bold;
+  margin-bottom: 0;
+}
+.future-vision .btun {
+  align-items: center;
+  display: flex;
+}
+.future-vision .btn {
+  background: white;
+    color: #d35400;
+    padding: 5px 30px;
+    font-size: 29px;
+    font-family: bitter-bold;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+/* !Future Vision */

@@ -704,7 +704,17 @@ h3 {
   margin-bottom: 30px;
   margin-right: -60px;
 }
+.gallery .modal-dialog {
+  max-width: 600px !important;
+  margin: 100px auto;
+}
 .gallery .modal-content img {
   margin-top: 30px;
+}
+.gallery .modal-content .imagepreview {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 /* !Future Vision */

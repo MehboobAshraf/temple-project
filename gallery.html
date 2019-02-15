@@ -14,7 +14,7 @@
     <script>
         $(function() {
             $('.popup').on('click', function() {
-               let a = $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+               $('.imagepreview').attr('src', $(this).find('img').attr('src'));
                 $('#imagemodal').modal('show');  
             });		
         });

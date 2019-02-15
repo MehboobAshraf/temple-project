@@ -680,6 +680,8 @@ h3 {
     border-radius: 30px;
     margin-left: 50px;
 }
+
+/* gallery page */
 .gallery {
   margin: 60px 0;
 }
@@ -717,4 +719,40 @@ h3 {
   object-fit: cover;
   border-radius: 20px;
 }
-/* !Future Vision */
+
+
+/* video galley page */
+.video-gallery {
+  margin: 60px 0;
+}
+.video-gallery h1 {
+  text-align: center;
+  font-family: bitter-bold;
+  color: #d35400;
+  margin-bottom: 50px;
+}
+.video-gallery .pop {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.video-gallery .pop img{
+  width: 100%;
+}
+.video-gallery .modal-dialog {
+  max-width: 750px;
+}
+.video-gallery .modal-content {  
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+.video-gallery .modal-dialog button.close {
+  margin: 0 -20px 0 0;
+  color: white;
+}
+.video-gallery .modal-dialog iframe {
+  border: none;
+  margin-top: 50px;
+  width: 660px;
+  height: 400px;
+}

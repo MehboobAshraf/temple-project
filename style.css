@@ -576,7 +576,7 @@ h3 {
 
 /* Future Vision */
 .future-vision {
-  margin: 60px 0;
+  margin: 60px 0 90px 0;
 }
 .future-vision h1{
   text-align: center;
@@ -628,8 +628,8 @@ h3 {
   border-radius: 20px;
   overflow: hidden;
 }
-.future-vision .temple {
-  margin: 60px 0;
+.future-vision .temple {  
+  margin: 60px 0 30px 0; 
 }
 .future-vision .temple img {
   width: 100%;
@@ -679,5 +679,32 @@ h3 {
     font-family: bitter-bold;
     border-radius: 30px;
     margin-left: 50px;
+}
+.gallery {
+  margin: 60px 0;
+}
+.gallery h1 {
+  text-align: center;
+  font-family: bitter-bold;
+  color: #d35400;
+  margin-bottom: 30px;
+}
+.gallery .popup img {
+  width: 100%;
+  cursor: pointer;
+  padding-bottom: 30px;
+}
+.gallery .modal-content {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+.gallery .modal-content button.close,.gallery .modal-content button.close:hover {
+  color: white;
+  margin-bottom: 30px;
+  margin-right: -60px;
+}
+.gallery .modal-content img {
+  margin-top: 30px;
 }
 /* !Future Vision */

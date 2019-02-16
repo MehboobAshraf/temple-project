@@ -756,3 +756,61 @@ h3 {
   width: 660px;
   height: 400px;
 }
+/* faq */
+.faq {
+  margin: 60px 0 80px 0;
+}
+.faq h1{
+  text-align: center;
+  font-family: bitter-bold;
+  color: #d35400;
+  margin-bottom: 50px;
+}
+.faq .panel-heading {
+  background: #d35200;
+  padding: 13px 30px 7px;
+  border-radius: 12px;
+}
+.faq .panel-heading a{ text-decoration: none}
+.faq .panel-heading a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.faq .panel-title a.collapsed::before{
+  content: "";
+  width: 5px;
+  height: 25px;
+  display: inline-block;
+  background: #fff;
+  position: relative;
+  float: right;
+  top: 2px;
+}
+.faq .panel-title a::after {
+  content: "";
+  width: 25px;
+  height: 5px;
+  display: inline-block;
+  background: #fff;
+  float: right;
+  margin: 12px -15px 0 0;
+}
+.faq .panel-body h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 30px;
+  color: #d35200;
+}
+.faq .panel-body {
+  margin: 0 20px;
+}
+.faq .panel {
+  margin: 20px 0;
+}
+.faq .panel-body h4:nth-of-type(even) {
+  color: #00113d;
+}
+.active {
+  background-color: #00113d !important;
+}

@@ -78,21 +78,68 @@ h3 {
   font-size: 13px;
   line-height: 1;
 }
+.header .container .row .bottom-header {
+  margin-top: 25px;
+}
+.navbar-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-bottom: 0;
+  list-style: none;
+}
 .header .bottom-header .nav {
-    float: right;
-    padding-left: 30px;
-    margin-top: -30px;
-    float: right !important;
+  float: right;
 }
 .header .bottom-header .nav ul {
   margin: 0;
   padding: 0;
   float: left;
-  list-style: none;  
   padding-left: 30px;
 }
 .header .bottom-header .nav ul li{
     padding: 3px 20px;
+}
+.header .bottom-header ul li a {
+  padding: 0 20px;
+  color: black;
+  font-family: bitter-regular;
+}
+.header .bottom-header ul li a:focus {
+  color: #d35400;
+}
+.header .bottom-header ul li a:hover {
+  text-decoration: none;
+}
+.header .bottom-header ul li .btn{
+  background: #d35200;
+  color: white;
+  padding: 3px 20px;
+  margin-left: 10px;
+  font-family: bitter-bold;
+  margin-top: -4px;
+  border-radius: 20px;
+}
+.header .navbar-toggle {
+  position: relative; 
+  float: right;
+  padding: 6px 13px;
+  margin-top: 30px;
+  background-color: white;
+  border: 1px solid #d45504;
+  border-radius: 4px;
+  display: none;
+}
+.icon-bar {
+  display: block;
+  width: 28px;
+  background: #da6f2c;
+  height: 4px;
+  margin: 5px 0;
+}
+.collapse:not(.show) {
+  display: inline-flex;
 }
 .home-banner {
   background: url(assets/images/home-page/home-banner.png) no-repeat;
@@ -119,6 +166,9 @@ h3 {
 }
 .home-banner .banner-text h1 span {
   font-family: bitter-bold;
+}
+.home {
+  margin-top: -11px;
 }
 .home .darsan {
   padding: 105px 0 30px 30px;
@@ -813,4 +863,44 @@ h3 {
 }
 .active {
   background-color: #00113d !important;
+}
+@media( min-width: 320px ) and (max-width: 767px) {
+  /* header */
+  .top-bar, .top_header {
+    display: none !important;
+  }
+  .navbar-brand {
+    margin: 0;
+  }
+  .navbar-brand img {
+    width: 60%;
+  }
+  .shev img {
+    width: 100%;
+  }
+  .collapse:not(.show) {
+    display: none;
+  }
+  .header .navbar-toggle {
+    display: block;
+  }
+  .header .bottom-header {
+    width: 100%;
+    text-align: center;
+  }
+  .header .navbar-nav {
+    display: block;
+  }
+  .header .bottom-header ul li {
+    margin: 10px 0;
+  }
+  .header .bottom-header .nav {
+    float: none;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer .row {
+    margin: 0;
+  }
 }

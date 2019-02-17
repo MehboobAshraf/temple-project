@@ -102,7 +102,7 @@ h3 {
     padding: 3px 20px;
 }
 .header .bottom-header ul li a {
-  padding: 0 20px;
+  padding: 0 12px;
   color: black;
   font-family: bitter-regular;
 }
@@ -914,5 +914,7 @@ h3 {
   .contact .contact-form {
     width: 100%;
   }
-
+  .history-img img {
+    width: 100%;
+  }
 }

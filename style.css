@@ -903,4 +903,16 @@ h3 {
   .footer .row {
     margin: 0;
   }
+  .copy-right p {
+    font-size: 10px;
+  }
+  /* home */
+  .home-banner {
+    background: url('assets/images/home-page/home-responsive-bg.png') no-repeat;
+  }
+  /* vontact page */
+  .contact .contact-form {
+    width: 100%;
+  }
+
 }

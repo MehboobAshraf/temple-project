@@ -171,7 +171,6 @@ h3 {
   margin-top: -11px;
 }
 .home .darsan {
-  padding: 105px 0 30px 30px;
   background: #d35400;
   color: white;
   font-size: 20px;
@@ -182,7 +181,7 @@ h3 {
   width: 92.2%;
 }
 .home .darsan p {
-  margin-bottom: 0
+  margin: 110px 0 10px 20px;
 }
 .home .darsan-timing {
   background: url('assets/images/home-page/darsan-timing.png') no-repeat;
@@ -244,6 +243,7 @@ h3 {
   font-weight: 700;
   border-bottom: 3px solid #e2e2e2;
   font-size: 36px;
+  width: 300px;
   margin: 0 auto;    
   text-transform: uppercase;
 }
@@ -285,12 +285,12 @@ h3 {
   background: #d35400;
   color: white;
   font-size: 16px;
+  display: block;
   font-family: bitter-regular;
   padding: 5px 30px;
   border-radius: 20px;
   border: none;
   margin: 0 auto;
-  /* box-shadow: 1px 3px 10px 3px #00000045; */
 }
 .btn:hover {
   transition: 0.2s all ease;
@@ -405,6 +405,12 @@ h3 {
   text-align: center;
   font-family: bitter-bold;
   padding: 5px 0 15px 0;
+}
+.nav-fill .nav-item {
+  width: 20px;
+}
+.nav-fill .nav-item img {
+  width: 100%;
 }
  .footer {
   background: #00113d;
@@ -906,9 +912,7 @@ h3 {
     text-align: center;
   }
   .home .darsan {
-    padding: 105px 0 30px 30px;
-    margin: -100px 0 0 0;
-    width: 345px;
+    margin: -85px 0 0 0;
   }
   .home .darsan_content {
     margin: 30px 0 0 0;
@@ -948,6 +952,12 @@ h3 {
   .home-banner {
     background-position: -360px -40px;
   }
+  .home .news .upcoming h3 {
+    width: 238px !important;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
   /* vontact page */
   .contact .contact-form {
     width: 100%;
@@ -1033,5 +1043,14 @@ h3 {
   /* home page */
   .home .support .row {
     flex-direction: row-reverse !important;
+  }
+}
+@media (max-width: 320px) {
+  .header .navbar-brand {
+    padding: 18px 0;
+    width: 214px;
+  }
+  .header .navbar-toggle {
+    margin-top: 17px;
   }
 }

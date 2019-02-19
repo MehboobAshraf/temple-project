@@ -473,6 +473,7 @@ h3 {
   height: 120px;
   border-radius: 20px;
   border: none;
+  background: #e2e2e2;
   box-shadow: 2px 2px 5px 2px #cecece;
 }
 .home .tab-pane {

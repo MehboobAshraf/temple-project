@@ -1138,8 +1138,18 @@ nav > div a.nav-item.nav-link.active:after {
   .home .support .row {
     flex-direction: row-reverse !important;
   }
+  .nav-item .show {
+    text-align: center;
+    margin: -14px 0px 20px 0;
+    position: relative !important;
+    display: inline-block;
+    transition: 0.2s all ease-in-out;
+  }
+  .nav-item .dropdown-menu {
+    transition: 0.2s all ease-in-out;
+  }
 }
-@media (max-width: 320px) {
+@media (max-width: 383px) {
   .header .navbar-brand {
     padding: 18px 0;
     width: 214px;
@@ -1148,3 +1158,14 @@ nav > div a.nav-item.nav-link.active:after {
     margin-top: 17px;
   }
 }
+/* Large styling start here */
+
+@media(min-width: 992px) and ( max-width: 1199px){
+  .header .bottom-header ul li a {
+    padding: 0 8px;
+  }
+}
+@media(min-width: 768px) and ( max-width: 991px) {
+
+}
+/* Large styling end here */

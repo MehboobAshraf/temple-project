@@ -11,13 +11,23 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script>
-		// $(function(){
-		// 	let $body = $('body');
-		// 	$body.find('.active > div').css('background-position', '0 100%');
-		// })
+	
+    <script>
+		$(function() {
+			$('.popup').on('click', function() {
+				$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+				$('#imagemodal').modal('show');  
+			});		
+		});
 	</script>
-
+	<script>
+		$(function() {
+			$('.pop').on('click', function() {
+				$('.imagepreview').attr('src', $(this).find('img').attr('link'));
+				$('#videomodal').modal('show');  
+			});		
+		});
+	</script>
 </head>
 <body>
 <!--header-->
@@ -226,6 +236,16 @@
 				</section>
 			</div>
 			<div class="photo_gallery">
+				<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">              
+						<div class="modal-body">
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+							<img src="" class="imagepreview">
+						</div>
+						</div>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
 						<h3>PHOTO GALLERY</h3>
@@ -233,42 +253,42 @@
 				</div>
 				<div class="row image_section">
 					<div class="col-md-3 col-sm-12 col-xs-12">
-						<div class="image">
+						<div class="image popup">
 							<img src="assets/images/home-page/photo1.png" alt="">
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-12 col-xs-12">
-						<div class="image">
+						<div class="image popup">
 							<img src="assets/images/home-page/photo2.png" alt="">
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-12 col-xs-12">
-						<div class="image">
+						<div class="image popup">
 							<img src="assets/images/home-page/photo3.png" alt="">
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-12 col-xs-12">
-						<div class="image">
+						<div class="image popup">
 							<img src="assets/images/home-page/photo4.png" alt="">
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-12 col-xs-12">
-						<div class="image">
+						<div class="image popup">
 							<img src="assets/images/home-page/photo5.png" alt="">
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-12 col-xs-12">
-						<div class="image">
+						<div class="image popup">
 							<img src="assets/images/home-page/photo6.png" alt="">
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-12 col-xs-12">
-						<div class="image">
+						<div class="image popup">
 							<img src="assets/images/home-page/photo7.png" alt="">
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-12 col-xs-12">
-						<div class="image">
+						<div class="image popup">
 							<img src="assets/images/home-page/photo8.png" alt="">
 						</div>
 					</div>
@@ -296,25 +316,38 @@
 			</div>
 		</div>
 		<div class="container videos">
+			<div class="modal fade" id="videomodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">              
+					<div class="modal-body">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<iframe class="imagepreview" src=""></iframe>
+					</div>
+					</div>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<h3>Videos</h3>
 				</div>
 				<div class="col-md-4 col-sm-12 col-xs-12">
-					<div class="video">
-						<img src="assets/images/home-page/video1.png" alt="">
+					<div class="video pop">
+						<img src="assets/images/home-page/video1.png"
+						link="https://www.youtube.com/embed/KmErtNSs5ak"  alt="">
 						<p>Video title in one or max two lines</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-12 col-xs-12">
-					<div class="video">
-						<img src="assets/images/home-page/video2.png" alt="">
+					<div class="video pop">
+						<img src="assets/images/home-page/video2.png" 
+						link="https://www.youtube.com/embed/KmErtNSs5ak" alt="">
 						<p>Video title in one or max two lines</p>						
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-12 col-xs-12">
-					<div class="video">
-						<img src="assets/images/home-page/video3.png" alt="">
+					<div class="video pop">
+						<img src="assets/images/home-page/video3.png" 
+						link="https://www.youtube.com/embed/KmErtNSs5ak" alt="">
 						<p>Video title in one or max two lines</p>
 					</div>
 				</div>

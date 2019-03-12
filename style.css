@@ -845,29 +845,29 @@ nav > div a.nav-item.nav-link.active:after {
   color: #d35400;
   margin-bottom: 30px;
 }
-.gallery .popup img {
+#imagemodal .popup img {
   width: 100%;
   cursor: pointer;
   padding-bottom: 30px;
 }
-.gallery .modal-content {
+#imagemodal .modal-content {
   background: transparent;
   border: none;
   box-shadow: none;
 }
-.gallery .modal-content button.close,.gallery .modal-content button.close:hover {
+#imagemodal .modal-content button.close,.modal-content button.close:hover {
   color: white;
   margin-bottom: 30px;
   margin-right: -60px;
 }
-.gallery .modal-dialog {
+#imagemodal .modal-dialog {
   max-width: 600px !important;
   margin: 100px auto;
 }
-.gallery .modal-content img {
+#imagemodal .modal-content img {
   margin-top: 30px;
 }
-.gallery .modal-content .imagepreview {
+#imagemodal .modal-content .imagepreview {
   width: 100%;
   height: 340px;
   object-fit: cover;
@@ -892,19 +892,19 @@ nav > div a.nav-item.nav-link.active:after {
 .video-gallery .pop img{
   width: 100%;
 }
-.video-gallery .modal-dialog {
+#videomodal .modal-dialog {
   max-width: 750px;
 }
-.video-gallery .modal-content {  
+#videomodal .modal-content {  
   background-color: transparent;
   border: none;
   box-shadow: none;
 }
-.video-gallery .modal-dialog button.close {
+#videomodal .modal-dialog button.close {
   margin: 0 -20px 0 0;
   color: white;
 }
-.video-gallery .modal-dialog iframe {
+#videomodal .modal-dialog iframe {
   border: none;
   margin-top: 50px;
   width: 660px;
@@ -1138,6 +1138,9 @@ nav > div a.nav-item.nav-link.active:after {
   .home .support .row {
     flex-direction: row-reverse !important;
   }
+  #videomodal .modal-dialog iframe {
+    width: 100%;
+  }
   .nav-item .show {
     text-align: center;
     margin: -14px 0px 20px 0;
@@ -1166,6 +1169,8 @@ nav > div a.nav-item.nav-link.active:after {
   }
 }
 @media(min-width: 768px) and ( max-width: 991px) {
-
+  .shev img {
+    width: 100%
+  }
 }
 /* Large styling end here */

@@ -24,12 +24,6 @@ h3 {
   -moz-box-shadow: 0 2px 10px 1px #848484;
   -o-box-shadow: 0 2px 10px 1px #848484;
   box-shadow: 0 2px 10px 1px #848484;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: white;
-  z-index: 111;
 }
 .header .top-bar {
   background: linear-gradient(-61deg, #00113d 82%, #d35400 80%);
@@ -148,7 +142,7 @@ h3 {
   display: inline-flex;
 }
 .home-banner {
-  margin-top: 194px;
+  /* margin-top: 194px; */
   background: url(assets/images/home-page/home-banner.png) no-repeat;
   width: 100%;
   background-size: cover;
@@ -562,7 +556,7 @@ nav > div a.nav-item.nav-link.active:after {
 
 /* about history page */
 .about-history {  
-  margin-top: 234px;
+  margin-top: 30px;
 }
 .about-history h1 {
   text-align: center;
@@ -585,7 +579,7 @@ nav > div a.nav-item.nav-link.active:after {
 
 /* about managment */
 .about-management {
-  margin-top: 230px;
+  margin-top: 30px;
 }
 .about-management h1 {
   text-align: center;
@@ -664,7 +658,7 @@ nav > div a.nav-item.nav-link.active:after {
 
 /* about Trust */
 .trust {
-  margin-top: 230px;
+  margin-top: 30px;
   margin-bottom: 100px;
 }
 .trust h3 {
@@ -732,7 +726,7 @@ nav > div a.nav-item.nav-link.active:after {
 
 /* Future Vision */
 .future-vision {
-  margin: 230px 0 90px 0;
+  margin: 30px 0 90px 0;
 }
 .future-vision h1{
   text-align: center;
@@ -843,7 +837,7 @@ nav > div a.nav-item.nav-link.active:after {
 
 /* gallery page */
 .gallery {
-  margin: 220px 0 60px 0;
+  margin: 30px 0 60px 0;
 }
 .gallery h1 {
   text-align: center;
@@ -1004,6 +998,14 @@ nav::-webkit-scrollbar-track {
 }
 @media( min-width: 320px ) and (max-width: 767px) {
   /* header */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 111;
+  }
   .home .significance nav {
     width: 95%;
     margin: 0 auto;

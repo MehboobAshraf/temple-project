@@ -269,6 +269,7 @@ h3 {
   height: 200px;
   object-fit: cover;
   margin: 14px 0;
+  cursor: pointer;
 }
 .home .image_section .image .middle {
     top: 13px;
@@ -309,9 +310,6 @@ h3 {
   background-size: cover;
   color: white;
 }
-.home .support .shev {
-  margin-top: -40px;
-}
 .home .support .support-content {
   display: flex;
   align-content: center;
@@ -347,6 +345,7 @@ h3 {
 }
 .home .videos .video img {
   width: 100%;
+  cursor: pointer;
 }
 .home .videos .video {
   margin-top: 40px;
@@ -985,8 +984,6 @@ nav > div a.nav-item.nav-link.active:after {
 .home .significance nav {
   overflow-x: auto;
   overflow-y: hidden;
-  width: 95%;
-  margin: 0 auto;
 }
 nav::-webkit-scrollbar {
   width: 5px;
@@ -1007,6 +1004,10 @@ nav::-webkit-scrollbar-track {
 }
 @media( min-width: 320px ) and (max-width: 767px) {
   /* header */
+  .home .significance nav {
+    width: 95%;
+    margin: 0 auto;
+  }
   .top-bar, .top_header {
     display: none !important;
   }

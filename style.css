@@ -968,6 +968,32 @@ nav > div a.nav-item.nav-link.active:after {
 .active {
   background-color: #00113d !important;
 }
+.nav-fill .nav-item {
+  margin-bottom: 15px;
+}
+.home .significance nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 95%;
+  margin: 0 auto;
+}
+nav::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}
+nav::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #00006c;
+}
+nav::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}
+.home .significance .nav-tabs {
+  width: 1140px;
+}
 @media( min-width: 320px ) and (max-width: 767px) {
   /* header */
   .top-bar, .top_header {
@@ -1051,7 +1077,7 @@ nav > div a.nav-item.nav-link.active:after {
     font-size: 24px;
     margin-top: 40px;
     margin-bottom: 30px;
-}
+  }
   /* vontact page */
   .contact .contact-form {
     width: 100%;
@@ -1138,6 +1164,10 @@ nav > div a.nav-item.nav-link.active:after {
   .home .support .row {
     flex-direction: row-reverse !important;
   }
+  .home section {
+    display: flex;
+    width: 1140px;
+  }
   #videomodal .modal-dialog iframe {
     width: 100%;
   }
@@ -1150,6 +1180,9 @@ nav > div a.nav-item.nav-link.active:after {
   }
   .nav-item .dropdown-menu {
     transition: 0.2s all ease-in-out;
+  }
+  .home .tab-pane {
+    padding: 20px 20px;
   }
 }
 @media (max-width: 383px) {
@@ -1166,6 +1199,9 @@ nav > div a.nav-item.nav-link.active:after {
 @media(min-width: 992px) and ( max-width: 1199px){
   .header .bottom-header ul li a {
     padding: 0 8px;
+  }
+  .shev img {
+    width: 100%
   }
 }
 @media(min-width: 768px) and ( max-width: 991px) {
